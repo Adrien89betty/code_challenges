@@ -19,13 +19,3 @@ def solution(s):
         return new_list
 
 # solution("abcdefg")
-
-
-
-
-
-
-
-# Convert string into a list of characters
-# Test if the number of character is even or odd.
-#
