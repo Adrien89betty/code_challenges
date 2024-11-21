@@ -7,9 +7,11 @@ def is_palin(string):
         for i in range(len(cleaned_str), 0, -1):
             rev_str += cleaned_str[i - 1]
         if cleaned_str == rev_str:
-            print(f"'{string}' is a palindrome.")
+            return f"'{string}' is a palindrome."
         else:
-            print(f"'{string}' is not a palindrome.")
+            return f"'{string}' is not a palindrome."
 
 
-is_palin("Ka ya k")
+if __name__ == "__main__":
+    user_input = input("Enter a word to know weather it's a palindrome or not: ")
+    print(is_palin(user_input))
