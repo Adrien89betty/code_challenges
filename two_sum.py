@@ -6,4 +6,3 @@ def two_sum(numbers, target):
             return complements[diff], index
         complements[num] = index
     return None
-
